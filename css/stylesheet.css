@@ -1,5 +1,13 @@
-html {
-    background-color: slategray;
-    font-size: 20px;
-    font-family: "Gill Sans MT";
+a{
+    color: yellow;
+    opacity: 1.0;
+}
+body{
+    font-size: 30px;
+    font-family: "Consolas";
+    margin-left: 25px;
+    background-color: dimgray;
+    color: darkgray;
+    background-image: url("../images/scrollingbars.gif");
+    background-size: auto;
 }
