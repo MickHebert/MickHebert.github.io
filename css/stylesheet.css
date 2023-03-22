@@ -3,8 +3,11 @@ a{
     opacity: 1.0;
 }
 body{
-    font-size: 24px;
-    font-family: "Gill Sans MT";
+    font-size: 30px;
+    font-family: "Consolas";
     margin-left: 25px;
     background-color: dimgray;
+    color: darkgray;
+    background-image: url("../images/scrollingbars.gif");
+    background-size: auto;
 }

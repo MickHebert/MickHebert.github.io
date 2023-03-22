@@ -1,0 +1,13 @@
+a{
+    color: yellow;
+    opacity: 1.0;
+}
+body{
+    font-size: 30px;
+    font-family: "Consolas";
+    margin-left: 25px;
+    background-color: dimgray;
+    color: darkgrey;
+    background-image: url("../images/blurredCode.png");
+    background-size: cover;
+}
