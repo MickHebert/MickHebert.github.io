@@ -1,5 +1,10 @@
-html {
-    background-color: slategray;
-    font-size: 20px;
+a{
+    color: yellow;
+    opacity: 1.0;
+}
+body{
+    font-size: 24px;
     font-family: "Gill Sans MT";
+    margin-left: 25px;
+    background-color: dimgray;
 }

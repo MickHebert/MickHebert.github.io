@@ -1,0 +1,13 @@
+body {
+    background-image: url("../images/scrollingbars.gif");
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    margin-left: 25px;
+    font-family: "Comic Sans MS";
+
+}
+a{
+    color: yellow;
+    opacity: 1.0;
+}
