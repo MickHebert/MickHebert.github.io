@@ -11,7 +11,7 @@ Attributes:
         or 
     <a>
     This element takes attributes and will make a link out of the text that it is before. For example:
-        <p> <a href="https://github.com" "title=Github" target="_blank" /> Link here </p> - This would make "Link here" link to the github home page
+        <p> <a href="https://github.com" "title=Github" target="_blank" /> Link here </p> - This would make "Link here" link to the GitHub home page
             - href is the reference page or the page you will be sent to
             - title is the tooltip that will pop up when you hover over the link
             - target is where the tab will open, put "_blank" for a new tab leave blank for no tab
@@ -23,24 +23,24 @@ Attributes:
 Boolean attributes:
     attributes that are written without values
     for example: disabled
-    This attribute will disable, obviosuly, whatever it is in such as an input:
+    This attribute will disable, obviously, whatever it is in such as an input:
         <input type="text" disabled="disabled" /> - this will disable the user's input into this text box
         Could also be written shorthand like
         <input type="text" disabled /> for disabled text box
         and
         <input type="text" /> for enabled text box
 
-Just learned this one on my own! :3
+Just learned this one on my own!
 <span>
     This is an inline container that can be used to markup part of a text
     For example:
-    <h1> Title <span title="hello world:> Page </span> is here! </h1> would add a fun little note onto the word Page or whatever the container spans around
+    <h1> Title <span title="hello world:> Page </span> is here! </h1> would add a fun little note onto the word "Page" or whatever the container spans around
 
 HTML anatomy:
     All HTML documents must begin with <!DOCTYPE html> this is a historical thing that is required just to get it to work lol
     Right under this is <html> and at the end of the document should be </html> (at least for now)
         This is just a wrapper for every element on the page, to keep it all neat and organized and that you know what is in the display space
-        Contains the language, for me it would of course be <html lang="en-US"> htmlz here :p </html>
+        Contains the language, for me, it would of course be <html lang="en-US"> html here </html>
     Under this is the <head> element. This will contain metadata such as the character set of the page and the title of the tab WILL NOT be displayed
         <meta charset="utf-8" /> should always be put here just to make sure it can handle everything, it's good practice!
         <tile></title> is the inline element that sets the tab's name
@@ -56,12 +56,12 @@ To display special characters in HTML (<, >, ", ', and &) you must encode them:
     " = &quot;
     ' = &apos;
     & = &amp;
-    These are pretty easy to remember, just make sure that if you want to use a conjuction, use &apos;!
+    These are pretty easy to remember, just make sure that if you want to use a conjunction, use &apos;!
 
 Comments:
     Comments in HTML go something like this;
         <!-- I am a comment -->
-    This is just an easy way to leave some hint of the functionality in your websites :3
+    This is just an easy way to leave some hint of the functionality in your websites
 
 Images:
     <img src="image" other modifiers here />
@@ -71,3 +71,18 @@ Images:
         It is preferred to resize in an image editor and save to WEBP
     Instead of linking to pages with <a> you can link to an image or anything else in the website's directory
 
+Website Design
+    Header
+        - Where name of website goes, maybe put my name there
+    Nav Bar
+        - Website navigation
+    Main Content
+        - Center of screen,
+    Sidebar
+        - Related info/links, contextual, doesn't have to be there
+    Footer
+        - strip on bottom of page, fine print,
+
+Nav Bar
+    All CSS scripting
+    Hover is used to get it to change color

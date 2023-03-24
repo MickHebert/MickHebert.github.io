@@ -12,10 +12,16 @@
     <meta name="description" content="A website to give information about myself and display projects">
     <link rel="stylesheet" href="css/stylesheet.css">
     <title>Michael Hebert</title>
-
   </head>
-  <a href="index.html" title="Home"> <img src="images/banner.png" /> </a>
+
   <body>
+    <!-- Navigation Bar -->
+    <ul>
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+    <main>
   <!-- put bienvenue here and have it randomly alternate -->
   <h1> <em> Welcome! </em> </h1>
     <p>
@@ -23,7 +29,9 @@
       <a href="index.html#about">Michael Hebert</a>,
       and some information on
       <a href="index.html#projects">projects</a>
-      I am developing in my spare time.
+      I am developing in my spare time. <br />
+
+      This website is an ongoing project that is updated generally every week, so keep an eye out for design and description changes!
     </p>
     <!-- About -->
     <h2 id="about">About</h2>
@@ -40,26 +48,29 @@
     />
 
     <p>
-      To see more about me or to get contact info, check out my <a href="about.html" title="About"> about</a> page.
+      To learn more about me or to my get contact info, check out my <a href="about.html" title="About"> about</a> page.
+      Here you'll find links to my GitHub, email, and information about my hobbies and interests.
     </p>
 
     <!-- Projects -->
     <h2 id="projects">Projects</h2>
     <p>
-      The projects that I'm working on at this moment include:
+      The programming projects that I'm working on at this moment include:
     </p>
-      <ul>
-        <li>Password Manager</li>
-        <li>This Website</li>
-        <li>STL Database</li>
-        <li>Game AI</li>
-      </ul>
+    <dl>
+      <dd>Password Manager</dd>
+      <dd>This Website</dd>
+      <dd>STL Database</dd>
+      <dd>Game AI</dd>
+    </dl>
 
     <p>
-      Take a look at my <a href="projects.html" title="Projects">projects</a> page for more info!
+      Take a look at my <a href="projects.html" title="Projects">projects</a> page for more detailed info on each of these
+      projects as well as what else I'm up to!
     </p>
-
-    <!-- Corndog -->
+    </main>
+    <footer>Background image source: https://vomitdistrict.neocities.org/ (Warning: graphic content)</footer>
+    <!-- Corn-dog -->
 <!--    <p> Would you like a <strong>corn-dog?</strong></p>-->
 <!--    <img-->
 <!--            src="images/corndog.jpg"-->
@@ -67,5 +78,7 @@
 <!--            width="400" height="auto"-->
 <!--            loading="lazy"-->
 <!--    />-->
+
+
   </body>
 </html>

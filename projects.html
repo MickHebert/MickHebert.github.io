@@ -9,74 +9,93 @@
     <title>Projects</title>
 </head>
 <body>
-<a href="index.html" title="Home"> <img src="images/banner.png" /> </a>
-<h1>Projects</h1>
-<!-- PASSWORD MANAGER -->
-<h2>Password Manager</h2>
-<p>
+<main>
+    <!-- Navigation Bar -->
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+        <li><a href="about.html">About</a></li>
+    </ul>
+    <h1>Projects</h1>
+    <!-- PASSWORD MANAGER -->
+    <h2>Password Manager</h2>
+    <p>
     A very primitive password manager that generates a random string for the user to use as a password.
     Currently only saves as plaintext and should not be used for sensitive information! Here is a link to its
     <a href="https://github.com/MickHebert/passwordmanager" target="_blank">GitHub repository</a>
-</p>
-<p>
+    </p>
+    <p>
     Written quickly in Python to generate random stings of characters to be used as passwords.
     Is able to save them in plaintext along with what website they were made for.
-    This is by no means a safe program and I mainly made it to mess around in Python. However, I plan to add some
+    This is by no means a safe program and I mainly made it to mess around in Python and Git. However, I plan to add some
     functionality to it that will make it more useful and secure.
-</p>
-<h3>TODO</h3>
-<ul>
-    <li>Add encryption</li>
-    <li>JSON support for web storage of encrypted passwords</li>
-</ul>
-
-<!-- WEBSITE -->
-<h2>This Website</h2>
-<p>
-    A chance to study HTML, CSS, and JavaScript web design. Includes a database for STL storage project.
-</p>
-<p>
-    I wanted to build a website for myself so that I could display a knowledge of HTML, CSS, and JavaScript to employers
-    and friends. This website is the culmination of my skills in those subjects up to this point,
-    and I update it almost daily through its
-    <a href="https://github.com/MickHebert/MickHebert.github.io" target="_blank">GitHub repository.</a>
-    In this repo, I have a dev branch which I push to regularly, and at the end of the week merge it with main after
-    checking for any errors in deployment.
-</p>
-<h3>TODO</h3>
-<p>
-    Here are some things I would like to add currently to the site:
-</p>
-<ul>
-    <li>Resize all images and save WEBP format so that they are properly scaled and take up less storage</li>
-    <li>Add a heading image and banner across the top of each page.
-    <ul>
-        <li>while one already exists, it is very low quality and not up to my standards (or any standards)</li>
-        <li>make it 3-dimensional with blocks that slide out/glow as the user hovers over them</li>
-    </ul>
-    </li>
-    <li>Add scripting to home page for added secret functionality</li>
-</ul>
-
-<!-- STL STORAGE DATABASE -->
-<h2>STL Storage Database</h2>
-<p>
-    A currently untitled project that is more of an idea at the moment.
-    Will store and display STL files I have made that a user can download much like other common websites such as
-    Printables or Thingiverse.
-</p>
-<p>
-    This project combines my love for 3D printing with web design so that I can have fun
-    while learning about databased and web storage.
-</p>
-
-<!-- Game AI Project -->
-<h2>Game AI</h2>
-<p>
-    Directly inspired by a friend of mine, I have decided to make a project that will incorporate a simple game AI.
-    This AI will be able to determine which moves to make in a certain situation in a Pac-Man like game.
-    This project should be a good test on algorithmic complexity as well as optimization. I plan to convert it into
-    JavaScript so that it will be playable on this website. Stay tuned for more updates!
-</p>
-
+    </p>
+    <h3>TODO</h3>
+    <dl>
+        <dd>Add encryption</dd>
+        <dd>JSON support for web storage of encrypted passwords</dd>
+    </dl>
+<hr />
+    <!-- WEBSITE -->
+    <h2>This Website</h2>
+    <p>
+        A chance to study HTML, CSS, and JavaScript web design. Includes a database for STL storage project.
+    </p>
+    <p>
+        I wanted to build a website for myself so that I could display a knowledge of
+        <abbr title="Hypertext Markup Language">HTML</abbr>, <abbr title="Cascading Style Sheets">CSS</abbr>,
+        and JavaScript to employers and friends. This website is the culmination of my skills in those subjects up to this point,
+        and I update it almost daily through its
+        <a href="https://github.com/MickHebert/MickHebert.github.io" target="_blank">GitHub repository.</a>
+        In this repo, I have a dev branch which I push to regularly, and at the end of the week merge it with main after
+        checking for errors that may show up in deployment.
+    </p>
+    <h3>TODO</h3>
+    <p>
+        Here are some things I would like to add currently to the site:
+    </p>
+    <dl>
+        <dd>Resize all images and save WEBP format so that they are properly scaled and take up less storage</dd>
+        <dd>Add a heading image and banner across the top of each page.
+        <dl>
+            <dd>While one already exists, it is very low quality and not up to my standards (or any standards)</dd>
+            <dd>Make it 3-dimensional with blocks that slide out/glow as the user hovers over them</dd>
+        </dl>
+        </dd>
+        <dd>Add scripting to home page for added secret functionality</dd>
+        <dd>Fix navigation bar (covering top of header words) - make it not use ul and li</dd>
+    </dl>
+<hr />
+    <!-- STL STORAGE DATABASE -->
+    <h2>STL Storage Database</h2>
+    <p>
+        A currently untitled project that is more of an idea at the moment.
+        Will store and display STL files I have made that a user can download much like other common websites such as
+        Printables or Thingiverse.
+    </p>
+    <p>
+        This project combines my love for 3D printing with web design so that I can have fun
+        while learning about databased and web storage.
+    </p>
+<hr />
+    <!-- Game AI Project -->
+    <h2>Game AI</h2>
+    <p>
+        Directly inspired by a friend of mine, I have decided to make a project that will incorporate a simple game AI.
+        This AI will be able to determine which moves to make in a certain situation in a Pac-Man like game.
+        This project should be a good test on algorithmic complexity as well as optimization. I plan to convert it into
+        JavaScript so that it will be playable on this website IF POSSIBLE. Stay tuned for more updates!
+    <h3>TODO</h3>
+    <p>
+        Here are some things I would like to add currently to the site:
+    </p>
+    <dl>
+        <dd>Begin work on node-based map system</dd>
+        <dd>Implement GUI</dd>
+        <dd>Implement player control</dd>
+        After all of this:
+        <dd>Implement enemy AI system (breadth first search algorithm)</dd>
+    </dl>
+</main>
 </body>
+</html>
