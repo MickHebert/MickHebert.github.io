@@ -13,6 +13,20 @@ body{
     background-size: cover;
 }
 
+p {
+    margin-left: 25px;
+}
+h1{
+    color:gray;
+}
+
+h2{
+    color:orangered;
+}
+dl {
+    margin-left: 50px;
+}
+
 /* Navigation bar help from w3schools.com */
 
 ul {
