@@ -6,8 +6,58 @@ body{
     font-size: 30px;
     font-family: "Consolas";
     margin-left: 25px;
+    margin-right: 25px;
     background-color: dimgray;
     color: white;
     background-image: url("../images/blurredPrints2.png");
     background-size: cover;
+}
+
+p {
+    margin-left: 25px;
+}
+h1{
+    color:gray;
+}
+
+h2{
+    color:orangered;
+}
+dl {
+    margin-left: 50px;
+}
+
+/* Navigation bar help from w3schools.com */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+    background-color: #333;
+    border-right: 1px solid #bbb;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: #111;
+}
+
+.active {
+    background-color: orangered;
 }
