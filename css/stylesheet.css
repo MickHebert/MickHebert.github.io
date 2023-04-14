@@ -2,6 +2,10 @@ a{
     color: yellow;
     opacity: 1.0;
 }
+a:visited{
+    color: white;
+}
+
 body{
     font-size: 30px;
     font-family: "Consolas";

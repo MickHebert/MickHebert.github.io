@@ -2,21 +2,33 @@ a{
     color: yellow;
     opacity: 1.0;
 }
-a:visited{
-    color: white;
-}
 body{
     font-size: 30px;
     font-family: "Consolas";
     margin-left: 25px;
     margin-right: 25px;
     background-color: dimgray;
-    color: darkgrey;
-    background-image: url("../images/blurredCode.png");
-    background-size: cover;
+    background-image: url("../images/scrollingbars.gif");
+    background-size: auto;
+}
+
+p {
+    margin-left: 25px;
+    color:darkgrey;
+}
+h1{
+    color:dimgray;
+}
+
+h2{
+    color:orangered;
+}
+dl {
+    margin-left: 50px;
 }
 
 /* Navigation bar help from w3schools.com */
+
 ul {
     list-style-type: none;
     margin: 0;
